@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E001BEE1F09DEFA00635D43 /* TrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E001BED1F09DEFA00635D43 /* TrackingViewController.swift */; };
-		8E0338281EEE5A8600B0EF0C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0338271EEE5A8600B0EF0C /* SWRevealViewController.m */; };
+		8E71DF311F52279600888332 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E71DF301F52279600888332 /* SWRevealViewController.m */; };
 		8EB7F2971EE3D91B005CB177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7F2961EE3D91B005CB177 /* AppDelegate.swift */; };
 		8EB7F2991EE3D91B005CB177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7F2981EE3D91B005CB177 /* ViewController.swift */; };
 		8EB7F29C1EE3D91B005CB177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7F29A1EE3D91B005CB177 /* Main.storyboard */; };
@@ -41,8 +41,8 @@
 /* Begin PBXFileReference section */
 		8E001BED1F09DEFA00635D43 /* TrackingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingViewController.swift; sourceTree = "<group>"; };
 		8E0338251EEE5A8600B0EF0C /* bionicbruins_proto-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bionicbruins_proto-Bridging-Header.h"; sourceTree = "<group>"; };
-		8E0338261EEE5A8600B0EF0C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Downloads/SWRevealViewController.h; sourceTree = "<group>"; };
-		8E0338271EEE5A8600B0EF0C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Downloads/SWRevealViewController.m; sourceTree = "<group>"; };
+		8E71DF2F1F52279600888332 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../Downloads/SWRevealViewController.h; sourceTree = "<group>"; };
+		8E71DF301F52279600888332 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../Downloads/SWRevealViewController.m; sourceTree = "<group>"; };
 		8EB7F2931EE3D91B005CB177 /* bionicbruins_proto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bionicbruins_proto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB7F2961EE3D91B005CB177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB7F2981EE3D91B005CB177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,10 +113,10 @@
 				8EB7F2981EE3D91B005CB177 /* ViewController.swift */,
 				8EB7F29A1EE3D91B005CB177 /* Main.storyboard */,
 				8EB7F29D1EE3D91B005CB177 /* Assets.xcassets */,
-				8E0338261EEE5A8600B0EF0C /* SWRevealViewController.h */,
-				8E0338271EEE5A8600B0EF0C /* SWRevealViewController.m */,
 				8EB7F29F1EE3D91B005CB177 /* LaunchScreen.storyboard */,
 				8EB7F2A21EE3D91B005CB177 /* Info.plist */,
+				8E71DF2F1F52279600888332 /* SWRevealViewController.h */,
+				8E71DF301F52279600888332 /* SWRevealViewController.m */,
 				8EB7F2C41EE3E025005CB177 /* loginTextFields.swift */,
 				8E0338251EEE5A8600B0EF0C /* bionicbruins_proto-Bridging-Header.h */,
 				8EEC62641EEFA00000186A67 /* HomeViewController.swift */,
@@ -279,13 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E71DF311F52279600888332 /* SWRevealViewController.m in Sources */,
 				8EEC62651EEFA00000186A67 /* HomeViewController.swift in Sources */,
 				8EB7F2991EE3D91B005CB177 /* ViewController.swift in Sources */,
 				8EB7F2C51EE3E025005CB177 /* loginTextFields.swift in Sources */,
 				8E001BEE1F09DEFA00635D43 /* TrackingViewController.swift in Sources */,
 				8EB7F2971EE3D91B005CB177 /* AppDelegate.swift in Sources */,
 				8EC461201F108AA10020AE47 /* NavigationViewController.swift in Sources */,
-				8E0338281EEE5A8600B0EF0C /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
