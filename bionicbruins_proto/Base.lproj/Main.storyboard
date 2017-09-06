@@ -445,7 +445,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vch-vw-FbV" id="ptA-lx-kWx">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -488,7 +488,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YuW-ip-Cev" id="kyc-9v-SGb">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -637,6 +637,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SIt-NI-dXt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-579" y="1832"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="far-H4-SXA">
+            <objects>
+                <viewController id="NSR-St-Uzv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D1P-Xf-6lu"/>
+                        <viewControllerLayoutGuide type="bottom" id="uGe-JX-xC8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C1a-K4-hro">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="TSS-82-ndH" kind="show" id="kwa-O5-biT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qcl-um-tFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1650" y="1050"/>
         </scene>
         <!--Navigation View Controller-->
         <scene sceneID="qS3-PQ-qeg">
@@ -845,4 +866,7 @@
         <image name="requesticon" width="24" height="24"/>
         <image name="trackingicon" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="kwa-O5-biT"/>
+    </inferredMetricsTieBreakers>
 </document>
