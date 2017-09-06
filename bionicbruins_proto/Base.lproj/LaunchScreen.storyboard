@@ -23,16 +23,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gearwhite" translatesAutoresizingMaskIntoConstraints="NO" id="lXe-Xq-bpA">
-                                <rect key="frame" x="100" y="224" width="120" height="120"/>
+                                <rect key="frame" x="105" y="228" width="110" height="112"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.15294117647058825" green="0.21176470588235294" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="204" id="9PF-Gp-HRr"/>
-                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="204" id="Bfk-jr-ihq"/>
-                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="84" id="cls-cC-6Me"/>
+                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="208" id="9PF-Gp-HRr"/>
+                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="208" id="Bfk-jr-ihq"/>
+                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="89" id="cls-cC-6Me"/>
                             <constraint firstItem="lXe-Xq-bpA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hRL-cK-JtG"/>
-                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="84" id="mG4-FI-fHn"/>
+                            <constraint firstItem="lXe-Xq-bpA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="89" id="mG4-FI-fHn"/>
                             <constraint firstItem="lXe-Xq-bpA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uXs-so-End"/>
                         </constraints>
                     </view>
